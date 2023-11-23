@@ -1,4 +1,4 @@
-module github.com/containers/buildah
+module github.com/oholiab/buildah
 
 go 1.13
 
