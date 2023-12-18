@@ -125,7 +125,7 @@ func (a *AgentServer) Serve(processLabel string) (string, error) {
 			}()
 			// the only way to get agent.ServeAgent is to close the connection it's serving on
 			go func() {
-				time.Sleep(500 * time.Millisecond)
+				time.Sleep(3000 * time.Millisecond)
 				c.Close()
 			}()
 		}
